@@ -54,7 +54,7 @@
           file_put_contents('log/read_write_exercise.log',  implode(PHP_EOL, $log), FILE_APPEND) ;
       }
       //header('Content-Type: application/json');
-      //echo json_encode($reply, JSON_PRETTY_PRINT);
+      //echo json_encode($GLOBALS['reply'], JSON_PRETTY_PRINT);
       print_r($reply);
       exit;
   }
